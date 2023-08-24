@@ -1,0 +1,20 @@
+.bgColor{
+    background-color: #282928;
+    color: #fff;
+    padding-top:2em;
+    padding-bottom: 2em;
+}
+.fontSize{
+    font-size: 1.2em;
+}
+.img-footer{
+    width: 25%;
+   border-radius: 30px;
+   margin-bottom: 2em;
+}
+.list-type{
+    list-style: none !important;
+}
+.list-type li{
+    padding-bottom: 1.2em;
+}
