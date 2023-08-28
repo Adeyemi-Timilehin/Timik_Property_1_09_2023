@@ -1,13 +1,13 @@
 //https://react-bootstrap.netlify.app/docs/getting-started/introduction
 
 import React,{useState} from 'react';
-import Layout from '././components/layout'
+import Home from './components/Home';
 function App() {
 
   return (
     <>
      
-       <Layout>Welcome</Layout>
+      <Home/>
   
        </>
   );

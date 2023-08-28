@@ -1,10 +1,13 @@
+import Header from "./Header";
 import Footer from "./footer";
 interface Props{
     children:React.ReactNode;
 }
 const Layout:React.FC<Props>=({children})=>{
     return(
-        <>{children}
+        <>
+        <Header />
+        {children}
         <Footer />
         </>
     )

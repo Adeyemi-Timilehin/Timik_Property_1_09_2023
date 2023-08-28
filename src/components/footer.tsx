@@ -1,19 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import imageSource from "../../assets/logo.jpg";
 import "./footer.css";
+import Logo from "./Logo";
+const year = new Date().getFullYear();
 const Footer = () => {
   return (
     <div>
       <Container fluid className="bgColor fontSize">
         <Row>
           <Col md={6} lg={3} sm={12}>
-            <img
-              src={imageSource}
-              className="img-footer"
-              alt="logo"
-            />
+            <Logo />
 
             <p>Close to perfect Home</p>
             <div className="social_icon">
@@ -56,7 +53,8 @@ const Footer = () => {
               <li>+2347064846659</li>
             </ul>
           </Col>
-          <p className="text-center">Timik &copy; 2023</p>
+          <hr/>
+          <p className="text-center">Timik &copy; {year}</p>
         </Row>
       </Container>
     </div>
