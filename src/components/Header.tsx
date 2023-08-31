@@ -1,15 +1,17 @@
-import { Container, Row, Col } from "react-bootstrap";
-import Logo from "./Logo";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import Logo from "./logo";
 import Search from "./Search";
 const Header = () => {
   return (
-    <Container fluid className="mt-4">
+    <Container className="mt-4">
       <Row>
+
         <Col>
           <Logo />
         </Col>
         <Col>
-          <Search />
+          <Button variant="outline-danger">Register</Button>{" "}
+          <Button variant="danger">Login</Button>{" "}
         </Col>
       </Row>
     </Container>

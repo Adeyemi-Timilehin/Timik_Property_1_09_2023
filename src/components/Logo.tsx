@@ -1,4 +1,4 @@
-import ImageSource from "./ImageSource"
+import ImageSource from "./imageSource"
 import image from "../../assets/logo.jpg";
 const Logo=()=>{
 return (

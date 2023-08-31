@@ -1,30 +1,29 @@
 import Layout from "./layout";
-import ImageSource from "./ImageSource";
+import image from "../../assets/1920.jpg";
+import ImageSource from "./imageSource";
 import { Row, Col, Container, Button } from "react-bootstrap";
+import Search from "./Search";
 const Home = () => {
   return (
     <Layout>
-      <Container>
-        <Row>
-          <Col>
-          <div className="w-50">
-          <h4 className="fs-4">Your Perfect House is Waiting for you </h4>
-            <p className="">We get your covered to acquire  new and rent  apartment</p>
+      <Container fluid>
+      <div className="position-relative">
+      <ImageSource
+          placeholder={image}
+          alt="landing image"
+          className="w-100 mb-3 h-auto"
+        />
+          <div className="text-white w-50 position-absolute top-50 start-50 translate-middle">
+            <h2 className="fs-1">Your Perfect House is Waiting for you </h2>
+            <p className="p-4">
+              We get your covered to acquire new and rent apartment
+            </p>
+            <Search />
           </div>
-            <div className="btn">
-            <Button variant="outline-danger">Register</Button>{' '}
-            <Button variant="danger">Login</Button>{' '}
-
-            </div>
-          </Col>
-          <Col>
-            <ImageSource
-              placeholder={"../assets/house.png"}
-              alt="landing Page photo"
-              className="img-fluid"
-            />
-          </Col>
-        </Row>
+         
+        </div>
+      
+     
       </Container>
     </Layout>
   );

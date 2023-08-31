@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./footer.css";
-import Logo from "./Logo";
+import Logo from "./logo";
 const year = new Date().getFullYear();
 const Footer = () => {
   return (
@@ -50,7 +50,7 @@ const Footer = () => {
               <li>Privacy & Policy</li>
               <li>Contact Us</li>
               <li>About Us</li>
-              <li>+2347064846659</li>
+              
             </ul>
           </Col>
           <hr/>
