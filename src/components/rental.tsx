@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import { Card } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import './style.css'
 interface Props{
     children?: React.ReactNode;
@@ -15,7 +15,9 @@ placeimg,
 onClick,
 })=>{
     return(
-        <Card onClick={onClick} className={className+"card"}>
+    
+
+        <Card  onClick={onClick} className={className+"card"}>
         <Card.Img variant="top" src={placeimg} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
@@ -25,6 +27,7 @@ onClick,
          
         </Card.Body>
       </Card>
+      
     )
 }
 export default Rental
