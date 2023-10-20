@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import ImageSource from "./ImageSource";
 import image from "../../sd/ec597249.jpg";
-export default function TwoLayout() {
+const  TwoLayout=()=> {
   return (
     <Container className="my-5">
       <h5>FOR RENTALS</h5>
@@ -40,3 +40,4 @@ export default function TwoLayout() {
     </Container>
   );
 }
+export default TwoLayout
