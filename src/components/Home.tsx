@@ -3,7 +3,7 @@ import image from "../../assets/1920.jpg";
 import ImageSource from "./ImageSource";
 import { Row, Container } from "react-bootstrap";
 import Search from "./Search";
-import Rental from "./rental";
+import Rental from "./Rental";
 import TwoLayout from "./TwoLayout";
 import {data} from "../data/data";
 const Home = () => {
