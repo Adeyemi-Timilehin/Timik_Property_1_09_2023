@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import ImageSource from "./imageSource";
+import ImageSource from "./ImageSource";
 import image from "../../sd/ec597249.jpg";
 export default function TwoLayout() {
   return (

@@ -1,6 +1,6 @@
 //https://react-bootstrap.netlify.app/docs/getting-started/introduction
 
-import Home from "./components/home";
+import Home from "./components/Home";
 
 function App() {
   return (

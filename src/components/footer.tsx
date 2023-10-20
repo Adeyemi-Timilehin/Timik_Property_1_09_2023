@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./footer.css";
-import Logo from "./logo";
+import Logo from "./Logo";
 const year = new Date().getFullYear();
 const Footer = () => {
   return (

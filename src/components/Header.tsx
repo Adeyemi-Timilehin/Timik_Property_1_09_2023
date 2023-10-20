@@ -1,5 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Logo from "./logo";
+import Logo from "./Logo";
 import Search from "./Search";
 const Header = () => {
   return (
